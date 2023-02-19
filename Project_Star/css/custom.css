@@ -1,0 +1,120 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    margin: 0;
+    background-color: #E4E9F7;
+}
+h1 {
+
+    text-align: center;
+    font-family: 'Lato';
+    color: white;
+}
+h2 {
+    font-size: 3rem;
+}
+h4 {
+    font-size: 19px;
+    font-weight: 700;
+}
+header {
+    padding: 20px 0 0 0;
+    background: white;
+    text-align: center;
+}
+@media (min-width: 750px) {
+    header {
+        text-align: left;
+    }
+}
+
+#img-carrito{
+    margin-bottom: -40px;
+    right: 0%;
+    border-radius: 5px;
+    max-width: 60px;
+}
+
+.borrar-curso {
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+}
+
+#encabezado {
+    margin: 30px 0;
+}
+#vaciar-carrito{
+    display:inline;
+    margin: 5px;
+    padding: 20px 37px;
+  }
+
+
+.submenu #carrito{
+    display: none;
+}
+.submenu:hover #carrito{
+    display: block;
+    position: absolute;
+    right:0;
+    top:100%;
+    z-index: 1;
+    background-color: #e0e8fc;
+    padding: 20px;
+    opacity: 85%;
+    min-height: 400px;
+    min-width: 300px;
+}
+
+#lista-cursos .row {
+    margin-bottom:20px;
+}
+.agregar-carrito {
+    margin:10px 0;
+}
+
+.card {
+    font-family: "Lato";
+    text-align: center;
+    border: 1px solid #e1e1e1;
+    background: rgba(255, 255, 255, 0.375);
+}
+@media (min-width: 550px) {
+    .card {
+        text-align: left;
+    }
+}
+
+.card:hover{
+    background: #cdc9ff;
+    transition: 0.5s;
+}
+
+
+.info-card  {
+    padding: 10px 20px;
+}
+
+.info-card p, 
+.card h4 {
+    margin-bottom: 5px;
+}
+.info-card .precio {
+    text-decoration: line-through;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.info-card .precio span {
+    font-weight: 700;
+    font-size: 22px;
+}
+
